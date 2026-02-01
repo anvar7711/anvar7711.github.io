@@ -113,3 +113,140 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/* Umumiy tanlangan shrift va fon rangi */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+header .logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+header p {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+}
+
+header .btn {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+header .btn:hover {
+    background-color: #e04848;
+    transform: scale(1.05);
+}
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ff5a5f;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+.property-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+.property-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.property-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+.property-card h3 {
+    margin: 10px 0 5px 0;
+}
+.property-card p {
+    color: #555;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+}
+input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
