@@ -9,6 +9,22 @@ body {
 }
 
 /* Header */
+header .btn {
+    background-color: #ff5a5f;   
+    color: white;                 
+    padding: 12px 30px;           
+    text-decoration: none;        
+    border-radius: 30px;          
+    font-weight: bold;
+    transition: 0.3s;             
+}
+
+header .btn:hover {
+    background-color: #e04848;    
+    transform: scale(1.05);       
+    cursor: pointer;              
+}
+
 header {
     background: url('banner.jpg') no-repeat center center/cover;
     color: white;
@@ -93,6 +109,22 @@ input, textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
 button {
     padding: 10px;
     background-color: #4CAF50;
