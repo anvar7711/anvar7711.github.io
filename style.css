@@ -164,3 +164,9 @@ footer{
     padding: 30px 20px;
   }
 }
+.card{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
